@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets"
+        xmlns:tizen="http://tizen.org/ns/widgets"
+        id="http://uzimantr.github.io/SpaceHub"
+        version="1.0.0"
+        viewmodes="maximized">
+  <name>SpaceHub</name>
+  <content src="index.html"/>
+  <description>SpaceHub - your space, one place.</description>
+  <author href="https://github.com/UziManTR">UziManTR</author>
+  <access origin="*" subdomains="true"/>
+  <feature name="http://tizen.org/feature/screen.size.all"/>
+  <tizen:application id="UziSpHub01.SpaceHub" package="UziSpHub01" required_version="5.5"/>
+  <tizen:profile name="tv"/>
+  <tizen:setting screen-orientation="landscape" context-menu="disable" background-support="disable"/>
+</widget>
